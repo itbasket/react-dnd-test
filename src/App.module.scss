@@ -1,0 +1,20 @@
+.App {
+
+}
+
+.stickerbook {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 800px;
+  padding: 20px;
+
+  & div {
+    display: flex;
+  }
+}
+
+.placeholder {
+  width: 300px;
+  height: 300px;
+}
